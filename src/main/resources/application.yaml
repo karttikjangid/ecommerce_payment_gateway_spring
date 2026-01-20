@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ecommerce_payment_gateway
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/ecommerce_payment_gateway
+
+server:
+  port: 8080
+
+razorpay:
+  key: rzp_test_xxxxxxxxxxx
+  secret: xxxxxxxxxxxxxxx
